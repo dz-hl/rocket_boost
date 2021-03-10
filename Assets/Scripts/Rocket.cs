@@ -42,7 +42,7 @@ public class Rocket : MonoBehaviour
         if (Input.GetKey(KeyCode.Space))
         {
             particleThrust.Play();
-            rigidBody.AddRelativeForce(Vector3.up * trustForce);
+            rigidBody.AddRelativeForce(Vector3.up * trustForce * Time.deltaTime);
             
             if (audioSource.isPlaying == false)
             {

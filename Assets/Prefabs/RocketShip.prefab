@@ -631,7 +631,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e2886a8b85f8df4d899a9f16b284104, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trustForce: 15
+  trustForce: 2000
   rotationForce: 250
   soundThrust: {fileID: 8300000, guid: 7065255dd31d5b9488fccd5cbf300b93, type: 3}
   soundDeath: {fileID: 8300000, guid: b35c402be7b3323448fdd27eea31cd75, type: 3}
